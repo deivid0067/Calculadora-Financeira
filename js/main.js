@@ -12,8 +12,8 @@ function mensurarPerdas() {
     var transportarCarne = 0;
 
     if (capacidadeCarga >= 1000) {
-        transportarCarne = valorCarneUnidade * capacidadeCarga;
-        var percaTransporte = (transportarCarne * 0.08) / 10
+        transportarCarne = valorCarneUnidade;
+        var percaTransporte = (transportarCarne * 0.08) 
         dadosTransporte.innerHTML = `
             Você Fez o Transporte de ${tipoCarne}.
             <br>
